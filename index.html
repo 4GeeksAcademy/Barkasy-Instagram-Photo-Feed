@@ -74,18 +74,18 @@
           <!-- Nav Tabs -->
           <ul class="nav nav-tabs justify-content-center mt-3" id="myTab" role="tablist">
             <li class="nav-item" role="presentation">
-              <button class="nav-link active" id="grid-tab" data-bs-toggle="tab" data-bs-target="#grid" type="button" role="tab" aria-controls="grid" aria-selected="true">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-grid-3x3" viewBox="0 0 16 16">
-                    <path d="M0 1.5A1.5 1.5 0 0 1 1.5 0h13A1.5 1.5 0 0 1 16 1.5v13a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 14.5zM1.5 1a.5.5 0 0 0-.5.5V5h4V1zM5 6H1v4h4zm1 4h4V6H6zm-1 1H1v3.5a.5.5 0 0 0 .5.5H5zm1 0v4h4v-4zm5 0v4h3.5a.5.5 0 0 0 .5-.5V11zm0-1h4V6h-4zm0-5h4V1.5a.5.5 0 0 0-.5-.5H11zm-1 0V1H6v4z"/>
-                  </svg>
-            </button>
+                <button class="nav-link active" id="grid-tab" data-bs-toggle="tab" data-bs-target="#grid" type="button" role="tab" aria-controls="grid" aria-selected="true">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-grid-3x3" viewBox="0 0 16 16">
+                        <path d="M0 1.5A1.5 1.5 0 0 1 1.5 0h13A1.5 1.5 0 0 1 16 1.5v13a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 14.5zM1.5 1a.5.5 0 0 0-.5.5V5h4V1zM5 6H1v4h4zm1 4h4V6H6zm-1 1H1v3.5a.5.5 0 0 0 .5.5H5zm1 0v4h4v-4zm5 0v4h3.5a.5.5 0 0 0 .5-.5V11zm0-1h4V6h-4zm0-5h4V1.5a.5.5 0 0 0-.5-.5H11zm-1 0V1H6v4z"/>
+                    </svg>
+                </button>
             </li>
             <li class="nav-item" role="presentation">
-              <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-square-fill" viewBox="0 0 16 16">
-                    <path d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2z"/>
-                  </svg>
-            </button>
+                <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-square-fill" viewBox="0 0 16 16">
+                        <path d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2z"/>
+                    </svg>
+                </button>
             </li>
           </ul>
           <div class="tab-content" id="myTabContent">
@@ -131,26 +131,30 @@
             </div>
             <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
                 <!-- View 2 -->
-                <div class="container-fluid text-center justify-content-center">
-                    <div class="container-fluid p-5">
-                        <div class="row">
-                            <div class="col-md-4"></div>
-                            <div class="col-md-4">
-                              <div class="card mt-3 mb-3" style="width: 18rem;">
-                                <div class="card-body">
-                                  <div class="card-header border-bottom-0 bg-transparent d-flex flex-row justify-content-between">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="">05/22</p>
-                                  </div>
-                                  <img src="https://source.unsplash.com/random/?1" class="card-img-top rounded-0 img-fluid m-0" alt="post image">
-                                  <p class="card-text">
-                                    <b>204 Likes</b></br>
-                                    Some quick example text to build on the card title and make up the bulk of the card's content.
-                                  </p>
+                <div class="container-fluid">
+                    <div class="row justify-content-center">
+                        <div class="col-7 p-0 mt-5">
+                            <div class="card">
+                                <div class="card-body p-0">
+                                    <div class="container-fluid p-0 mt-2">
+                                        <div class="row d-flex justify-content-between">
+                                            <div class="col-10">
+                                                <h6 class="ms-2">Post Title 1</h6>
+                                            </div>
+                                            <div class="col-2 d-flex justify-content-end align-items-start">
+                                                <small class="me-2">08/26</small>
+                                            </div>
+                                        </div>
+                                    <div class="row">
+                                        <img src="https://source.unsplash.com/random/500x500/?1" class="img-fluid w-100 object-fit-cover" style="height: 400px;">
+                                    </div>
+                                    <strong class="ms-1">204 Likes</strong>
+                                    <p class="ms-1">This is an example of a very good photo that you can post on Instagram.</p>
+                                    </div>
                                 </div>
-                              </div>
                             </div>
-                            <div class="col-md-4"></div>
+                        </div>
+                      </div>
 
 
 
